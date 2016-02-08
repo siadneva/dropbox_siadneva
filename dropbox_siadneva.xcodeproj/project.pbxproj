@@ -20,6 +20,7 @@
 		0F2856D21C68423700D1EFAD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2856D11C68423700D1EFAD /* SignUpViewController.swift */; };
 		0FA37E7A1C685713001A0806 /* passwordAssistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA37E791C685713001A0806 /* passwordAssistViewController.swift */; };
 		0FA37E7C1C68608E001A0806 /* doneTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA37E7B1C68608E001A0806 /* doneTermsViewController.swift */; };
+		0FA37E7E1C686E3C001A0806 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA37E7D1C686E3C001A0806 /* settingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		0F2856D11C68423700D1EFAD /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
 		0FA37E791C685713001A0806 /* passwordAssistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passwordAssistViewController.swift; sourceTree = "<group>"; };
 		0FA37E7B1C68608E001A0806 /* doneTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doneTermsViewController.swift; sourceTree = "<group>"; };
+		0FA37E7D1C686E3C001A0806 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				0F2856CF1C68422300D1EFAD /* SignInViewController.swift */,
 				0F2856D11C68423700D1EFAD /* SignUpViewController.swift */,
 				0FA37E7B1C68608E001A0806 /* doneTermsViewController.swift */,
+				0FA37E7D1C686E3C001A0806 /* settingsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				0FA37E7C1C68608E001A0806 /* doneTermsViewController.swift in Sources */,
 				0F2856D21C68423700D1EFAD /* SignUpViewController.swift in Sources */,
+				0FA37E7E1C686E3C001A0806 /* settingsViewController.swift in Sources */,
 				0F28569D1C68096F00D1EFAD /* ViewController.swift in Sources */,
 				0F28569B1C68096F00D1EFAD /* AppDelegate.swift in Sources */,
 				0F2856CE1C68393300D1EFAD /* chooseSignInViewController.swift in Sources */,
