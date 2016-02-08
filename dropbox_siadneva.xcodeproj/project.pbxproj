@@ -14,6 +14,12 @@
 		0F2856A51C68096F00D1EFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F2856A31C68096F00D1EFAD /* LaunchScreen.storyboard */; };
 		0F2856B01C68097000D1EFAD /* dropbox_siadnevaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2856AF1C68097000D1EFAD /* dropbox_siadnevaTests.swift */; };
 		0F2856BB1C68097000D1EFAD /* dropbox_siadnevaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2856BA1C68097000D1EFAD /* dropbox_siadnevaUITests.swift */; };
+		0F2856CB1C68389E00D1EFAD /* chooseSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2856CA1C68389E00D1EFAD /* chooseSignUpViewController.swift */; };
+		0F2856CE1C68393300D1EFAD /* chooseSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2856CD1C68393200D1EFAD /* chooseSignInViewController.swift */; };
+		0F2856D01C68422300D1EFAD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2856CF1C68422300D1EFAD /* SignInViewController.swift */; };
+		0F2856D21C68423700D1EFAD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2856D11C68423700D1EFAD /* SignUpViewController.swift */; };
+		0FA37E7A1C685713001A0806 /* passwordAssistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA37E791C685713001A0806 /* passwordAssistViewController.swift */; };
+		0FA37E7C1C68608E001A0806 /* doneTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA37E7B1C68608E001A0806 /* doneTermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		0F2856B61C68097000D1EFAD /* dropbox_siadnevaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropbox_siadnevaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2856BA1C68097000D1EFAD /* dropbox_siadnevaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropbox_siadnevaUITests.swift; sourceTree = "<group>"; };
 		0F2856BC1C68097000D1EFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2856CA1C68389E00D1EFAD /* chooseSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chooseSignUpViewController.swift; path = ../chooseSignUpViewController.swift; sourceTree = "<group>"; };
+		0F2856CD1C68393200D1EFAD /* chooseSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chooseSignInViewController.swift; sourceTree = "<group>"; };
+		0F2856CF1C68422300D1EFAD /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0F2856D11C68423700D1EFAD /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../SignUpViewController.swift; sourceTree = "<group>"; };
+		0FA37E791C685713001A0806 /* passwordAssistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = passwordAssistViewController.swift; sourceTree = "<group>"; };
+		0FA37E7B1C68608E001A0806 /* doneTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doneTermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 		0F2856991C68096F00D1EFAD /* dropbox_siadneva */ = {
 			isa = PBXGroup;
 			children = (
+				0F2856CC1C6838B000D1EFAD /* View Controllers */,
 				0F28569A1C68096F00D1EFAD /* AppDelegate.swift */,
 				0F28569C1C68096F00D1EFAD /* ViewController.swift */,
 				0F28569E1C68096F00D1EFAD /* Main.storyboard */,
@@ -123,6 +136,19 @@
 				0F2856BC1C68097000D1EFAD /* Info.plist */,
 			);
 			path = dropbox_siadnevaUITests;
+			sourceTree = "<group>";
+		};
+		0F2856CC1C6838B000D1EFAD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F2856CA1C68389E00D1EFAD /* chooseSignUpViewController.swift */,
+				0FA37E791C685713001A0806 /* passwordAssistViewController.swift */,
+				0F2856CD1C68393200D1EFAD /* chooseSignInViewController.swift */,
+				0F2856CF1C68422300D1EFAD /* SignInViewController.swift */,
+				0F2856D11C68423700D1EFAD /* SignUpViewController.swift */,
+				0FA37E7B1C68608E001A0806 /* doneTermsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA37E7C1C68608E001A0806 /* doneTermsViewController.swift in Sources */,
+				0F2856D21C68423700D1EFAD /* SignUpViewController.swift in Sources */,
 				0F28569D1C68096F00D1EFAD /* ViewController.swift in Sources */,
 				0F28569B1C68096F00D1EFAD /* AppDelegate.swift in Sources */,
+				0F2856CE1C68393300D1EFAD /* chooseSignInViewController.swift in Sources */,
+				0F2856D01C68422300D1EFAD /* SignInViewController.swift in Sources */,
+				0FA37E7A1C685713001A0806 /* passwordAssistViewController.swift in Sources */,
+				0F2856CB1C68389E00D1EFAD /* chooseSignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +517,7 @@
 				0F2856C11C68097000D1EFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F2856C21C68097000D1EFAD /* Build configuration list for PBXNativeTarget "dropbox_siadnevaTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +526,7 @@
 				0F2856C41C68097000D1EFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F2856C51C68097000D1EFAD /* Build configuration list for PBXNativeTarget "dropbox_siadnevaUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +535,7 @@
 				0F2856C71C68097000D1EFAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
